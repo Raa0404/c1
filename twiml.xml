@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather numDigits="1" action="https://yourdomain.com/handle-input" method="POST">
+        <Say>Hello, this is a service call from your branch. Press 1 if you received the notice, 2 if not, or 9 to talk to the branch.</Say>
+    </Gather>
+    <Say>No input received. Goodbye!</Say>
+</Response>
